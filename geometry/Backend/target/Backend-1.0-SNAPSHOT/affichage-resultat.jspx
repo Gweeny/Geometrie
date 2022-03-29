@@ -1,0 +1,21 @@
+<!--
+  Created by IntelliJ IDEA.
+  User: 33011-18-18
+  Date: 16/03/2022
+  Time: 12:56
+  To change this template use File | Settings | File Templates.
+-->
+
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" xmlns="http://www.w3.org/1999/xhtml" version="2.0">
+    <html>
+    <head><title>Resultat</title></head>
+    <body>
+    le resultat est :
+    RequestDispatcher dispatcher =req.getRequestDispatcher("/affichage-reslutat.jspx");
+    dispatcher.forward(req,resp);
+
+
+
+    </body>
+    </html>
+</jsp:root>
